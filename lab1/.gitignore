@@ -1,0 +1,76 @@
+# ==========================================
+# Compiled Binaries & Object Files
+# ==========================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# ==========================================
+# Build Directories (CMake, Make, Ninja)
+# ==========================================
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+Makefile
+*.cmake
+.cmake/
+.ninja_*
+*.ninja
+
+# ==========================================
+# Precompiled Headers & Dependency Tracking
+# ==========================================
+*.gch
+*.pch
+*.d
+*.idb
+*.pdb
+
+# ==========================================
+# IDE & Text Editor Files
+# ==========================================
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# ==========================================
+# Package Managers & Documentation
+# ==========================================
+vcpkg_installed/
+.conan/
+html/
+latex/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
